@@ -45,5 +45,6 @@ void MooseAnswer()
     Random num = new Random();
     int randoInt = num.Next(0, 19);
     Console.WriteLine($"{responses[randoInt]}");
-
+    Console.ReadLine();
+    Main();
 }
